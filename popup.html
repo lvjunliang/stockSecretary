@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <script src="jquery.js"></script>
+    <script src="jquery-ui.js"></script>
+	<link href="main.css" rel="stylesheet" />
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+	<link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet" />
+	<script src="bootstrap/js/bootstrap.js"></script>
+    <style>
+    </style>
+  </head>
+  <body>
+	  <div class="nav">
+		<button id='hqBtn' class='btn btn-danger'>即时报价</button>
+		<button id="minlineBtn" class='btn btn-info'>行情走势</button>
+	  </div>
+	  <table class="table table-hover" id="hqTable">
+		  <thead>
+			  <tr>
+				  <th>名称</th>
+				  <th>当前价</th>
+				  <th>涨跌额</th>
+				  <th>涨跌幅</th>
+				  <th></th>
+			  </tr>
+		  </thead>
+		  <tbody id="stockList">
+
+		  </tbody>
+	  </table>
+	  <ul id="minlineUL" style="display:none;">
+		
+	  </ul>
+	  <div class="clear"></div>
+	<script src="popup.js"></script>
+  </body>
+</html>
+

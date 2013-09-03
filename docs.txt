@@ -1,0 +1,2 @@
+http://www.sinaimg.cn/cj/yw/flash/us0708a.swf?symbol=gb_.dji
+<embed src="http://finance.sina.com.cn/flash/cn.swf?symbol=sh600739" quality="high" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="560" height="490"></embed>

@@ -1,0 +1,27 @@
+body {
+	min-width: 480px;
+	overflow-x: hidden;
+	font-size:12px;
+}
+.pricedown{
+	color:#199900;
+}
+.priceup{
+	color:#FE0000;
+}
+#minlineUL{margin:0;padding:0;list-style:none; }
+#minlineUL li{
+	list-style:none;
+	margin:0;padding:0;
+	width:220px;
+	height:150px;
+	text-align:center;
+	float:left;
+}
+#minlineUL li div{
+	height:20px;
+	line-height:20px;
+	font-size:12px;
+	font-weight:bold;
+}
+.clear{height:0;width:0;display:none;clear:both;}

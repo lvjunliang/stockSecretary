@@ -1,0 +1,21 @@
+{
+	"background": {
+		"page": "background.html"
+	},
+	"manifest_version": 2,
+	"name" : "我的股市助手" , 
+	"version" : "0.1",
+	"icons": {
+		"128": "icons/icon_128.png",
+		"16": "icons/icon_16.png",
+		"32": "icons/icon_32.png",
+		"48": "icons/icon_48.png"
+	},
+	"browser_action": {
+		"default_icon": "icons/icon_32.png",
+		"default_title": "我的股市助手",
+		"default_popup": "popup.html"
+	},
+	"permissions": [ "http://finance.sina.com.cn/*" , "http://www.sinaimg.cn/*" , "http://hq.sinajs.cn/*"],
+	"content_security_policy": "script-src 'self' ; object-src 'self' "
+}
